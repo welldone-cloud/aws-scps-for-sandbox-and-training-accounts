@@ -1,0 +1,41 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Deny",
+			"NotAction": [
+				"acm:*",
+				"athena:*",
+				"autoscaling:*",
+				"budgets:*",
+				"ce:*",
+				"cloudfront:*",
+				"cloudshell:*",
+				"cloudtrail:*",
+				"cloudwatch:*",
+				"cur:*",
+				"dynamodb:*",
+				"ec2:*",
+				"ecr:*",
+				"ecs:*",
+				"elasticloadbalancing:*",
+				"glue:*",
+				"health:*",
+				"iam:*",
+				"kms:*",
+				"lambda:*",
+				"logs:*",
+				"route53:*",
+				"rds:*",
+				"s3:*",
+				"sns:*",
+				"sqs:*",
+				"sts:*",
+				"waf-regional:*",
+				"waf:*",
+				"wafv2:*"
+			],
+			"Resource": "*"
+		}
+	]
+}

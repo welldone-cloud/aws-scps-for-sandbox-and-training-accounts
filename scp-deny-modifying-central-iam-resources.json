@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "NotAction": [
+        "iam:Get*",
+        "iam:List*"
+      ],
+      "Resource": [
+        "arn:aws:iam::*:role/OrganizationAccountAccessRole",
+        "arn:aws:iam::*:role/aws-reserved/sso.amazonaws.com/*",
+        "arn:aws:iam::*:oidc-provider/*",
+        "arn:aws:iam::*:saml-provider/*"
+      ]
+    }
+  ]
+}

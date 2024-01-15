@@ -1,0 +1,41 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Action": [
+        "account:CloseAccount",
+        "account:DeleteAlternateContact",
+        "account:DisableRegion",
+        "account:EnableRegion",
+        "account:PutAlternateContact",
+        "account:PutChallengeQuestions",
+        "account:PutContactInformation",
+        "billing:PutContractInformation",
+        "billing:UpdateBillingPreferences",
+        "billing:UpdateIAMAccessPreference",
+        "iam:CreateAccountAlias",
+        "iam:DeleteAccountAlias",
+        "invoicing:PutInvoiceEmailDeliveryPreferences",
+        "organizations:LeaveOrganization",
+        "payments:CreatePaymentInstrument",
+        "payments:DeletePaymentInstrument",
+        "payments:MakePayment",
+        "payments:UpdatePaymentPreferences",
+        "purchase-orders:AddPurchaseOrder",
+        "purchase-orders:DeletePurchaseOrder",
+        "purchase-orders:ModifyPurchaseOrders",
+        "purchase-orders:UpdateConsoleActionSetEnforced",
+        "purchase-orders:UpdatePurchaseOrder",
+        "purchase-orders:UpdatePurchaseOrderStatus",
+        "tax:BatchPutTaxRegistration",
+        "tax:DeleteTaxRegistration",
+        "tax:PutTaxInheritance",
+        "tax:PutTaxInterview",
+        "tax:PutTaxRegistration",
+        "tax:UpdateExemptions"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Action": [
+        "athena:CreateCapacityReservation",
+        "aws-marketplace:AcceptAgreementRequest",
+        "aws-marketplace:CreateAgreementRequest",
+        "aws-marketplace:CreatePrivateMarketplaceRequests",
+        "aws-marketplace:Subscribe",
+        "bedrock:CreateFoundationModelAgreement",
+        "cloudfront:CreateSavingsPlan",
+        "devicefarm:PurchaseOffering",
+        "directconnect:ConfirmCustomerAgreement",
+        "dynamodb:PurchaseReservedCapacityOfferings",
+        "ec2:AcceptReservedInstancesExchangeQuote",
+        "ec2:CreateCapacityReservation",
+        "ec2:CreateCapacityReservationFleet",
+        "ec2:CreateReservedInstancesListing",
+        "ec2:PurchaseCapacityBlock",
+        "ec2:PurchaseHostReservation",
+        "ec2:PurchaseReservedInstancesOffering",
+        "ec2:PurchaseScheduledInstances",
+        "elasticache:PurchaseReservedCacheNodesOffering",
+        "es:PurchaseReservedElasticsearchInstanceOffering",
+        "es:PurchaseReservedInstanceOffering",
+        "glacier:PurchaseProvisionedCapacity",
+        "groundstation:ReserveContact",
+        "mediaconnect:PurchaseOffering",
+        "medialive:PurchaseOffering",
+        "memorydb:PurchaseReservedNodesOffering",
+        "rds:PurchaseReservedDBInstancesOffering",
+        "redshift:AcceptReservedNodeExchange",
+        "redshift:PurchaseReservedNodeOffering",
+        "route53domains:AcceptDomainTransferFromAnotherAwsAccount",
+        "route53domains:RegisterDomain",
+        "s3:PutBucketObjectLockConfiguration",
+        "savingsplans:CreateSavingsPlan"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
