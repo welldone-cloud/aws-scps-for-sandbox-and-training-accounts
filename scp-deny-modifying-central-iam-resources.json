@@ -4,6 +4,7 @@
     {
       "Effect": "Deny",
       "NotAction": [
+        "iam:Generate*",
         "iam:Get*",
         "iam:List*"
       ],
