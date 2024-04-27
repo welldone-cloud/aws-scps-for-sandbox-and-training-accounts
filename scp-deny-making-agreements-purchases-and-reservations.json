@@ -49,6 +49,7 @@
         "redshift:PurchaseReservedNodeOffering",
         "route53domains:AcceptDomainTransferFromAnotherAwsAccount",
         "route53domains:RegisterDomain",
+        "route53domains:RenewDomain",
         "route53domains:TransferDomain",
         "route53domains:TransferDomainToAnotherAwsAccount",
         "s3:PutBucketObjectLockConfiguration",
