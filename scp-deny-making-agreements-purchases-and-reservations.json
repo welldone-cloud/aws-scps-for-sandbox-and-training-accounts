@@ -43,6 +43,7 @@
         "outposts:CreateOrder",
         "panorama:ProvisionDevice",
         "quicksight:Subscribe",
+        "quicksight:UpdateSPICECapacityConfiguration",
         "rbin:LockRule",
         "rds:PurchaseReservedDBInstancesOffering",
         "redshift:AcceptReservedNodeExchange",
