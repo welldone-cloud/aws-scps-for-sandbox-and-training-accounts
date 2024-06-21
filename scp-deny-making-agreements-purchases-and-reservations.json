@@ -9,6 +9,7 @@
         "aws-marketplace:CreateAgreementRequest",
         "aws-marketplace:CreatePrivateMarketplaceRequests",
         "aws-marketplace:Subscribe",
+        "backup:CreateLogicallyAirGappedBackupVault",
         "backup:PutBackupVaultLockConfiguration",
         "bedrock:CreateFoundationModelAgreement",
         "bedrock:CreateProvisionedModelThroughput",
