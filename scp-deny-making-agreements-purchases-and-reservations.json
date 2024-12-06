@@ -13,6 +13,7 @@
         "backup:PutBackupVaultLockConfiguration",
         "bedrock:CreateFoundationModelAgreement",
         "bedrock:CreateProvisionedModelThroughput",
+        "cloudfront:CreateAnycastIpList",
         "cloudfront:CreateSavingsPlan",
         "devicefarm:PurchaseOffering",
         "directconnect:ConfirmCustomerAgreement",
