@@ -61,6 +61,8 @@
         "s3-object-lambda:PutObjectLegalHold",
         "s3-object-lambda:PutObjectRetention",
         "savingsplans:CreateSavingsPlan",
+        "security-ir:CreateMembership",
+        "security-ir:UpdateMembership",
         "shield:CreateSubscription",
         "snowball:CreateJob",
         "snowball:CreateLongTermPricing"
